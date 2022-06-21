@@ -363,4 +363,10 @@ footer li {
     min-width: 400px;
 }
 
+footer h2 {
+    margin-bottom: 20px;
+}
 
+footer p {
+    margin-bottom: 30px;
+}
