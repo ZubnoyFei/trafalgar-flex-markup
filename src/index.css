@@ -50,7 +50,7 @@ button {
     color: #458FF6;
     background-color: white;
     border-radius: 55px;
-    padding-left:40px;
+    padding-left: 40px;
     padding-right: 40px;
     font-weight: 500;
     font-size: 18px;
@@ -176,7 +176,7 @@ p {
 }
 
 .cards h3 {
-    font-weight:700 ;
+    font-weight: 700;
     font-size: 24px;
     line-height: 2.3;
 }
@@ -203,7 +203,7 @@ p {
 }
 
 .healthcare-providers h2 {
-margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .healthcare-providers p {
@@ -220,7 +220,6 @@ margin-bottom: 60px;
 }
 
 
-
 .testimonials p {
     color: white;
 }
@@ -230,13 +229,13 @@ margin-bottom: 60px;
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
-   padding-top:60px;
+    padding-top: 60px;
 }
 
 .testimonials-wrapper {
     display: flex;
-    margin-top:70px;
- align-items: center;
+    margin-top: 70px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -246,12 +245,12 @@ margin-bottom: 60px;
 }
 
 .testimonials-people {
-display: flex;
+    display: flex;
     flex-direction: column;
 }
 
 .testimonials-people h3 {
-font-size: 22px;
+    font-size: 22px;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -261,5 +260,103 @@ font-size: 22px;
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+
+.articles h2 {
+    padding-top: 230px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.articles ul img {
+    width: 370px;
+}
+
+.articles li {
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.articles ul {
+    display: flex;
+    gap:30px;
+}
+
+
+
+.card-content h3 {
+    display: flex;
+    margin-top: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.card-content p {
+    text-align: start;
+}
+
+.card-content a {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.card-content a>img {
+    width: 14px;
+}
+
+.articles button {
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.container-xl ul {
+    display: flex;
+}
+
+button {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    background-color: #67C3F3;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-content: center;
+}
+
+footer ul {
+    margin-top: 100px;
+}
+
+footer li:first-of-type {
+    margin-right:150px;
+}
+footer p{
+    color: white;
+}
+
+footer li {
+    align-items: center;
+    min-width: 400px;
+}
+
+footer h2:first-of-type, img{
+    color: white;
+display: flex;
 }
 
