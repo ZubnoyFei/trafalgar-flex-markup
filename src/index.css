@@ -192,6 +192,11 @@ p {
 
 }
 
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
 .our-services button {
     margin-top: 70px;
     display: flex;
@@ -220,6 +225,7 @@ p {
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
     color: white;
+
 }
 
 
@@ -237,6 +243,7 @@ p {
 
 .testimonials-wrapper {
     display: flex;
+    height: 140px;
     margin-top: 70px;
     align-items: center;
     justify-content: space-between;
@@ -244,7 +251,8 @@ p {
 
 .testimonials-wrapper img {
     border-radius: 50%;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .testimonials-people {
@@ -264,8 +272,6 @@ p {
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
 .arrow-wrapper {
     display: flex;
     justify-content: space-between;
@@ -338,8 +344,6 @@ button {
 footer {
     background-color: #67C3F3;
     display: flex;
-    justify-content: space-between;
-    /*height: 400px;*/
     align-content: center;
 }
 
@@ -352,6 +356,7 @@ footer ul {
     display: flex;
     margin-top: 100px;
 }
+
 
 footer li:first-of-type {
     margin-right:150px;
