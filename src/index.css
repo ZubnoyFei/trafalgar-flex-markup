@@ -172,6 +172,7 @@ p {
 }
 
 .cards img {
+    flex-grow: 1;
     margin-top: 63px;
     width: 63px;
     margin-bottom: 20px;
@@ -280,7 +281,7 @@ p {
 }
 
 .articles ul img {
-    width: 370px;
+    width: 100%; padding-bottom: 20px;
 }
 
 .articles li {
@@ -300,6 +301,7 @@ p {
     margin-top: 20px;
     text-align: start;
     margin-bottom: 20px;
+
 }
 
 .card-content p {
