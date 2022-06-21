@@ -45,335 +45,128 @@ body {
     font-family: Lato, sans-serif;
 }
 
-button {
-    border: 2px solid #458FF6;
-    color: #458FF6;
-    background-color: white;
-    border-radius: 55px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 3.3;
-}
-
 .container-xl {
-    width: 1600px;
+    width: 1217px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container {
-    width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    width: 1120px;
 }
 
-.nav ul {
+header {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+header > div {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
-    color: #1F1534;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.3;
+    align-items: center;
 }
+
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav > ul {
+    display: flex;
+    gap: 40px;
+}
+
+.hero {
+    padding-top: 24px;
+    padding-bottom: 95px;
+}
+
 
 .hero > div {
     display: flex;
-    justify-content: space-between;
-    padding-top: 84px;
+    gap: 110px;
+    align-items: center;
 }
 
-.hero-content {
-    min-width: 430px;
-    gap: 130px;
-    margin-right: 100px;
-}
-
-h1 {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 1.2;
-    margin-bottom: 25px;
-    padding-top: 90px;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 1.5;
-    font-weight: 700;
-}
-
-p {
-    font-size: 18px;
-    color: #7D7987;
-
-}
-
-
-.hero-content p {
-    color: #7D7987;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 48px;
-}
-
-.hero-content button {
-    border: 2px solid #458FF6;
-    color: white;
-    background-color: #458FF6;
-    border-radius: 55px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 3.3;
-
-}
-
-.hero-content img {
-    display: flex;
-    width: 700px;
-}
 
 .our-services {
-    padding-top: 180px;
-
-}
-
-.our-services h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-
-.our-services p {
-    display: flex;
-    line-height: 1.6;
-    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 110px;
+    background-color: grey;
 }
 
 .our-services ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.our-services li {
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    overflow: hidden;
+    gap: 37px 34px;
+    margin-bottom: 70px;
 }
 
 .cards {
-    padding-bottom: 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 34px;
     width: 350px;
-}
-
-.cards img {
-    flex-grow: 1;
-    margin-top: 63px;
-    width: 63px;
-    margin-bottom: 20px;
-}
-
-.cards h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 2.3;
-}
-
-.cards p {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.75;
-    text-align: start;
-
-}
-
-
-.button-wrapper {
-    display: flex;
-    justify-content: center;
-}
-.our-services button {
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.healthcare-providers {
-    padding-top: 220px;
-    display: flex;
-    gap: 150px;
-}
-
-.healthcare-providers h2 {
-    margin-bottom: 60px;
-}
-
-.healthcare-providers p {
-    margin-bottom: 60px;
-    font-weight: 300;
-}
-
-.testimonials {
-    height: 420px;
-    margin-top: 270px;
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    border-radius: 24px;
-    color: white;
-
-}
-
-
-.testimonials p {
-    color: white;
-}
-
-
-.testimonials h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
-    padding-top: 60px;
-}
-
-.testimonials-wrapper {
-    display: flex;
-    height: 140px;
-    margin-top: 70px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.testimonials-wrapper img {
-    border-radius: 50%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.testimonials-people {
-    display: flex;
-    flex-direction: column;
-}
-
-.testimonials-people h3 {
-    font-size: 22px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-
-.testimonials-quote {
-    display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.arrow-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 43px;
-}
-
-
-.articles h2 {
-    padding-top: 230px;
-    padding-bottom: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.articles ul img {
-    width: 100%; padding-bottom: 20px;
-}
-
-.articles li {
-    border: 1px solid white;
+    background-color: white;
+    padding-top: 54px;
+    padding-left: 37px;
+    padding-bottom: 47px;
+    padding-right: 37px;
     border-radius: 20px;
 }
 
-.articles ul {
+.cards img {
+    height: 95px;
+}
+
+
+.healthcare-providers {
+    padding-top: 110px;
+    padding-bottom: 115px;
+}
+
+.healthcare-providers > div {
     display: flex;
-    gap:30px;
-}
-
-
-
-.card-content h3 {
-    display: flex;
-    margin-top: 20px;
-    text-align: start;
-    margin-bottom: 20px;
-
-}
-
-.card-content p {
-    text-align: start;
-}
-
-.card-content a {
-    display: flex;
-    margin-top: 25px;
-    gap: 20px;
-    align-items: flex-end;
-    flex-grow: 1;
-}
-
-.card-content a>img {
-    width: 14px;
-}
-
-.articles button {
-    margin-top: 70px;
-    margin-bottom: 200px;
-}
-
-.container-xl ul {
-    display: flex;
-}
-
-button {
-    justify-content: center;
     align-items: center;
-    align-content: center;
 }
 
-footer {
-    background-color: #67C3F3;
+.healthcare-providers-2nd {
+    padding-top: 115px;
+    padding-bottom: 125px;
+}
+
+.healthcare-providers-2nd > div {
     display: flex;
-    align-content: center;
-}
-
-.logo{
-    display: flex;
-    width: 41px
-}
-
-footer ul {
-    display: flex;
-    margin-top: 100px;
-}
-
-
-footer li:first-of-type {
-    margin-right:150px;
-}
-footer p, footer h2{
-    color: white;
-}
-
-footer li {
     align-items: center;
-    min-width: 400px;
 }
 
-footer h2 {
-    margin-bottom: 20px;
+.testimonials-wrapper {
+    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+    padding-right:120px ;
 }
 
-footer p {
-    margin-bottom: 30px;
+.testimonials-wrapper h2 {
+    margin-bottom: 64px;
+}
+
+.testimonials-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonials-text-wrapper > img {
+    border-radius: 50%;
+    border: white 4px solid;
+}
+
+.testimonials-people {
+    width: 270px;
+    flex-shrink: 0;
 }
