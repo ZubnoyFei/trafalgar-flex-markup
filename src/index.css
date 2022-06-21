@@ -337,18 +337,24 @@ footer {
     background-color: #67C3F3;
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    /*height: 400px;*/
     align-content: center;
 }
 
+.logo{
+    display: flex;
+    width: 41px
+}
+
 footer ul {
+    display: flex;
     margin-top: 100px;
 }
 
 footer li:first-of-type {
     margin-right:150px;
 }
-footer p{
+footer p, footer h2{
     color: white;
 }
 
@@ -357,8 +363,4 @@ footer li {
     min-width: 400px;
 }
 
-footer h2:first-of-type, img{
-    color: white;
-display: flex;
-}
 
