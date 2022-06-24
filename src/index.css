@@ -337,7 +337,7 @@ h1 {
 
 .articles {
     padding-top: 110px;
-
+padding-bottom: 100px;
 }
 
 .articles h2 {
@@ -400,30 +400,29 @@ h1 {
     padding-right: 80px;
     padding-bottom: 15px;
     padding-left: 80px;
-    margin-bottom: 200px;
 }
 
 footer {
+    padding-top: 100px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);;
 }
 
 footer > div > ul {
     display: flex;
     gap: 110px;
-    padding-top: 120px;
     padding-bottom: 120px;
     color: white;
 }
 
-
+footer a:first-of-type {
+    padding-top: 120px;
+}
 footer h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.25;
-    margin-bottom: 22px;
+    color: white;
 }
-
-
 
 
 footer h3 {
