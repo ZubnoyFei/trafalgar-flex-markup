@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Lato;
+    font-family: Mulish;
     font-display: swap;
     font-weight: 300;
     src: url("fonts/Mulish-Light.woff2") format('woff2');
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: Lato;
+    font-family: Mulish;
     font-display: swap;
     font-weight: 400;
     src: url("fonts/Mulish-Regular.woff2") format('woff2');
@@ -16,7 +16,7 @@
 
 
 @font-face {
-    font-family: Lato;
+    font-family: Mulish;
     font-display: swap;
     font-weight: 500;
     src: url("fonts/Mulish-Medium.woff2") format('woff2');
@@ -25,7 +25,7 @@
 
 
 @font-face {
-    font-family: Lato;
+    font-family: Mulish;
     font-display: swap;
     font-weight: 700;
     src: url("fonts/Mulish-Bold.woff2") format('woff2');
@@ -34,7 +34,7 @@
 
 
 @font-face {
-    font-family: Lato;
+    font-family: Mulish;
     font-display: swap;
     font-weight: 900;
     src: url("fonts/Mulish-Black.woff2") format('woff2');
@@ -42,10 +42,40 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
+header > div, ul {
+    display: flex;
+    justify-content: space-between;
+}
 
 .container-xl {
+    width: 1600px;
+}
+
+.container {
     width: 1100px;
+}
+
+.hero > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-services {
+    display: flex;
+}
+
+.healthcare-providers > div {
+    display: flex;
+}
+
+.download-apps > div {
+    display: flex;
+}
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
