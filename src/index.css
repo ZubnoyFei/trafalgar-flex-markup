@@ -175,6 +175,7 @@ h1 {
     font-size: 24px;
     font-weight: 700;
     line-height: 2.3;
+    color: black;
 }
 
 .cards-services p {
@@ -187,7 +188,6 @@ h1 {
 .button-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 220px;
 }
 
 .button-wrapper button {
@@ -273,7 +273,6 @@ h1 {
 }
 
 .testimonials {
-    padding-top: 130px;
     padding-bottom: 110px;
 }
 
@@ -355,6 +354,15 @@ h1 {
     overflow: hidden;
     width: 350px;
 }
+
+.articles h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    color:black;
+}
+
 
 .articles img {
     width: 100%;
