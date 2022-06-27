@@ -144,6 +144,7 @@ h1 {
 
 .cards-services {
     display: flex;
+    padding-bottom: 70px;
 }
 
 .cards-services li {
@@ -154,7 +155,7 @@ h1 {
     padding-top: 50px;
     padding-bottom: 50px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    width:350px;
+    width: 350px;
 }
 
 .cards-services img {
@@ -175,8 +176,31 @@ h1 {
     line-height: 1.75;
 }
 
+.button-wrapper {
+    display: flex;
+justify-content: center;
+    margin-bottom: 220px;
+}
+
+.button-wrapper button {
+    background-color: #FFFFFF;
+    color: #458FF6;
+    border: 1.5px solid #458FF6;
+    border-radius: 55px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3.3;
+}
+
+
 .healthcare-providers > div {
     display: flex;
+}
+
+.text-wrapper {
+    align-self: center;
 }
 
 .download-apps > div {
