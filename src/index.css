@@ -431,7 +431,7 @@ footer {
 footer > div, footer ul {
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+    gap: 120px;
 }
 
 .footer-text-wrapper {
