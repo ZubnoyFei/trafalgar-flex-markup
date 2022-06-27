@@ -430,26 +430,31 @@ footer {
 
 footer > div, footer ul {
     display: flex;
+    justify-content: space-between;
+    gap: 150px;
 }
 
 .footer-text-wrapper {
-    margin-right : 150px;
-     min-width: 400px;
+     width: 400px;
+
 }
 
 .footer-text-wrapper, ul {
     color: #FFFFFF;
 }
 
-footer ul{
-    gap: 170px;
-}
 
 .footer-text-wrapper a:first-of-type {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.25;
+padding-bottom: 30px;
 }
+
+.footer-text-wrapper p{
+padding-bottom: 40px;
+}
+
 
 .footer-text-wrapper img {
     margin-right: 12px;
