@@ -41,3 +41,14 @@
     /*style: normal;*/
 }
 
+
+.container {
+    width: 1120px;
+}
+.container-xl {
+    width: 1600px;
+}
+
+body {
+    font-family: Mulish, sans-serif;
+}
