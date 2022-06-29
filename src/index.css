@@ -97,3 +97,50 @@ header > div > nav {
     color: #1F1534;
     opacity: 0.5;
 }
+
+.hero-content {
+    padding-bottom: 190px;
+}
+
+.hero-content > div {
+    display: flex;
+    gap: 130px;
+
+}
+
+.text-wrapper-head {
+    align-self: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.text-wrapper-head p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #7D7987;
+    margin-bottom: 50px;
+}
+
+
+.hero-img {
+    width: 700px;
+}
+
+.hero-content button {
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #458FF6;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3.5;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+}
+
