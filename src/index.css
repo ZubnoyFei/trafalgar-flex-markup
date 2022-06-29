@@ -230,14 +230,14 @@ h1 {
 }
 
 .healthcare-providers h2 {
-font-weight: 700;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.5;
     margin-bottom: 60px;
 }
 
 .healthcare-providers p {
-   font-size: 18px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
     color: #7D7987;
@@ -254,4 +254,113 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 700;
     line-height: 3.5;
+}
+
+.apps > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding-bottom: 270px;
+}
+
+.apps > div:last-of-type {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.apps h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.apps p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+
+.apps button {
+    border: 1.5px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3.5;
+}
+
+.testimonials {
+padding-bottom: 50px;
+}
+
+.testimonials > div {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    color: #FFFFFF;
+    padding: 70px;
+}
+
+
+.testimonials h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.testimonials-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.testimonials-text-wrapper img {
+    border: 1px solid #FFFFFF;
+    border-radius:50%;
+}
+
+.testimonials-text-wrapper h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.2;
+}
+
+.testimonials-text-wrapper p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.testimonials-text-wrapper p:last-of-type {
+    min-width: 350px;
+}
+
+
+.arrow-wrapper>div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    width: 300px;
+}
+
+
+.articles {
+    padding-top: 230px;
+    padding-bottom: 200px;
+}
+
+.articles li {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
 }
