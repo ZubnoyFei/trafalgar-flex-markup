@@ -362,6 +362,7 @@ h1 {
 .arrow-wrapper > div {
     display: flex;
     justify-content: space-between;
+    width: 340px;
 }
 
 .articles {
@@ -380,6 +381,7 @@ h1 {
 .articles ul {
     display: flex;
     gap: 35px;
+    padding-bottom: 70px;
 }
 
 .articles li {
@@ -418,6 +420,7 @@ h1 {
     width: 15px;
     height: 10px;
     align-self: center;
+    margin-top: 5px;
 }
 
 .li-text-wrapper a {
@@ -430,7 +433,77 @@ h1 {
     gap: 10px;
 }
 
+.articles button {
+    background-color: #FFFFFF;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
 footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    color: #FFFFFF;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-legal > a {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.footer-legal > p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.footer-legal p {
+    width: 400px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.footer-navmenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.footer-content >ul {
+    gap: 10px;
+}
+.footer-content >ul>li {
+    margin-bottom: 10px;
+}
+
+.footer-content >ul>li> a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+
 }
