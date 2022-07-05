@@ -320,9 +320,6 @@ h1 {
     background-image: url("../img/testimonials-dots.svg");
     background-position: right top ;
     background-repeat: no-repeat;
-    background-image: url("../img/testimonial-bottom-dots.svg");
-    background-position: left 0px top 270px;
-    background-repeat: no-repeat;
 }
 
 .testimonials h2 {
