@@ -187,7 +187,7 @@ h1 {
     padding: 40px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-
+background-color: #FFFFFF;
 }
 
 .cards img {
@@ -394,6 +394,9 @@ h1 {
     background-image: url("../img/testimonials-dots.svg");
     background-position: right top 50px;
     background-repeat: no-repeat;
+    background-image: url("../img/healtcare-dots.svg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 .articles h2 {
@@ -478,6 +481,9 @@ footer {
     padding-bottom:100px;
     color: #FFFFFF;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    /*background-image: url("../img/healtcare-dots.svg");*/
+    /*background-position: left bottom;*/
+    /*background-repeat: no-repeat;*/
 }
 
 footer > div {
