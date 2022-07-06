@@ -391,7 +391,7 @@ h1 {
 .articles {
     padding-top: 110px;
     padding-bottom: 200px;
-    background-image: url("../img/li-bg-drop.svg"),url("../img/articles-dots.svg"), url("../img/articles-dots.svg");
+    background-image: url("../img/articles-drop-bg.png"),url("../img/articles-dots.svg"), url("../img/articles-dots.svg");
     background-position: right top 30%, left 350px top 230px, right bottom -40px;
     background-repeat: no-repeat,no-repeat;
 }
