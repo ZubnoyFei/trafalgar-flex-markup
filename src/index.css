@@ -340,6 +340,9 @@ h1 {
     background-image:url("../img/healtcare-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     background-position: right top;
     background-repeat: no-repeat;
+    background-image:url("../img/healtcare-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
 
 
