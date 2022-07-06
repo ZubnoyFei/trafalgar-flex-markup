@@ -343,7 +343,7 @@ h1 {
     background-repeat: no-repeat;
     background-image:url("../img/testimonials-bottom-dots.svg");
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left -40px bottom;
 }
 
 
