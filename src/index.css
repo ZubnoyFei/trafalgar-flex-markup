@@ -337,12 +337,13 @@ h1 {
     padding-left: 120px;
     padding-bottom: 60px;
     padding-right: 120px;
-    background-image:url("../img/healtcare-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-image:url("../img/healtcare-dots.svg");
     background-position: right top;
     background-repeat: no-repeat;
-    background-image:url("../img/healtcare-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    background-position: left bottom;
+    background-image:url("../img/testimonials-bottom-dots.svg");
     background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 
