@@ -331,14 +331,15 @@ h1 {
     margin-bottom: 95px;
 }
 
-.testimonials > div {
+
+.testimonials-color {
+    border: 1px solid #5A98F2;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     padding-top: 65px;
     padding-left: 120px;
     padding-bottom: 60px;
     padding-right: 120px;
-    border: 1px solid #5A98F2;
-    border-radius: 24px;
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
 }
 
 .testimonials-wrapper > div {
