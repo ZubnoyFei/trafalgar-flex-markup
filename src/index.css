@@ -317,10 +317,9 @@ h1 {
 .testimonials {
     display: flex;
     padding-top: 125px;
-    background-image:url("../img/testimonials-bottom-dots.svg"), url("../img/healthcare-dots.svg");
-    background-position: /*right 0px top 50px,*/ right 350px bottom 250px;
-    background-repeat: no-repeat, no-repeat;
+
 }
+
 
 .testimonials h2 {
     text-align: center;
@@ -339,8 +338,9 @@ h1 {
     padding-left: 120px;
     padding-bottom: 60px;
     padding-right: 120px;
-    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-
+    background-image: url("../img/testimonials-top-dots.svg"),url("../img/testimonials-bottom-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-position:right top,left -40px bottom 20px,0;
+    background-repeat: no-repeat,no-repeat, no-repeat;
 }
 
 
@@ -392,7 +392,7 @@ h1 {
     padding-top: 110px;
     padding-bottom: 200px;
     background-image: url("../img/articles-drop-bg.png"),url("../img/articles-dots.svg"), url("../img/articles-dots.svg");
-    background-position: right top 30%, left 350px top 230px, right bottom -40px;
+    background-position: right top 30%, left 350px top 230px, right 100px bottom -40px;
     background-repeat: no-repeat,no-repeat;
 }
 
